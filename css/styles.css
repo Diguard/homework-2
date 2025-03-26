@@ -2,7 +2,7 @@
     --primary-text-color: #757575;
     --tittle-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-color: #F5F5F5;
+    --primary-color: #FFFFFF;
 }
 
 body {
@@ -65,7 +65,7 @@ span {
 background-color: #2F303A;
 }
 .hero-tittle {
-    color: #FFFFFF;
+    color: var(--primary-color);
     font-weight: 900;
     font-size: 44px;
     line-height:1.4;
@@ -93,7 +93,7 @@ background-color: #2F303A;
 .filter-button:hover,
 .filter-button:focus {
     background-color: var(--accent-color);
-    color:#FFFFFF;
+    color:var(--primary-color);
 }
 /*  Portfolio */
 .portfolio-tittle {
@@ -150,7 +150,7 @@ background-color: #2F303A;
 }
 /* Footer */
 .footer-logo {
-    color:#FFFFFF;
+    color: var(--primary-color);
     font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: 700;
@@ -160,7 +160,7 @@ background-color: #2F303A;
     background-color:#2F303A;
 }
 .address {
-    color:#FFFFFF;
+    color:var(--primary-color);
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
