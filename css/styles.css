@@ -14,20 +14,29 @@ body {
 }
 
 /* logo */
-.logo {
+.header-logo {
     color:#000000;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
+    text-decoration: none;
 }
 
 span {
     color:var(--accent-color);
 }
 
-/* site nav */
+/* Site nav */
+.site-nav {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+}
+
 .site-nav .link {
     color:var(--tittle-text-color);
+    text-decoration: none;
+    
 }
 
 .site-nav .link:hover,
@@ -35,35 +44,108 @@ span {
     color:var(--accent-color);
 }
 
-/* Contact */
-.contact-link {
-color:var(--primary-text-color)
+/* Header Contact */
+.header-list {
+    list-style: none;
 }
-.contact-link:hover,
-.contact-link:focus {
+
+.header-contact {
+    color:var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.header-contact:hover,
+.header-contact:focus {
     color:var(--accent-color);
 }
+
 /* Hero */
 .hero {
 background-color: #2F303A;
 }
 .hero-tittle {
     color: #FFFFFF;
+    font-weight: 900;
+    font-size: 44px;
+    line-height:1.4;
 }
 
-/* Section */
-.section-tittle {
+.button {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    cursor: pointer;
+}
+/* Advantages */
+.list {
+    list-style: none;
+}
+
+.advantages-tittle {
     color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 14px;
 }
 
+.advantages-text {
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* Works*/
+.works-tittle {
+    color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+/* Team */
+.team-tittle {
+    color: var(--tittle-text-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+.card-tittle {
+    color: var(--tittle-text-color);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 16px;
+}
 /* Footer */
 .footer-logo {
     color:#FFFFFF;
     font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
 }
 .footer {
     background-color:#2F303A;
 }
 .address {
-     color:#FFFFFF;
+    color:#FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* Footer contact */
+.footer-list {
+    list-style: none;
+}
+
+.footer-contact {
+    color:var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.7;
+
+}
+
+.footer-contact:hover,
+.footer-contact:focus {
+    color:var(--accent-color);
 }
