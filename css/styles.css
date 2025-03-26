@@ -95,15 +95,15 @@ background-color: #2F303A;
     background-color: var(--accent-color);
     color:#FFFFFF;
 }
-/*  Our works */
-.section-tittle {
+/*  Portfolio */
+.portfolio-tittle {
     color: var(--tittle-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 
-.section-text {
+.portfolio-text {
     font-size: 16px;
     line-height: 1.8;
 }
