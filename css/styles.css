@@ -131,6 +131,9 @@ background-color: #2F303A;
 }
 
 /* Team */
+.team {
+    background-color: #F5F4FA;
+}
 .team-tittle {
     color: var(--tittle-text-color);
     font-weight: 700;
@@ -171,7 +174,6 @@ background-color: #2F303A;
     color:var(--primary-text-color);
     font-size: 14px;
     line-height: 1.7;
-
 }
 
 .footer-contact:hover,
